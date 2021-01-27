@@ -21,3 +21,4 @@
 ### Build & Export 
 * Rode o comando ``` npm run build ``` para gerar o build da aplicação 
 * Rode o comando ``` npm run export ``` para exportar os arquivos estáticos para pasta out 
+``` npm run build && npm run export ``` 
