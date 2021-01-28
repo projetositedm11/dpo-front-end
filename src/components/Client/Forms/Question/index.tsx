@@ -195,7 +195,7 @@ const Question: React.FC = () => {
         ) : (
           <Form onSubmit={(e) => onSubmit(e)}>
             <Header>
-              <h4>Questionario de serviços</h4>
+              <h4>Questionário de serviços</h4>
               <img src={Logo} alt="Logo" />
             </Header>
             {error && (
