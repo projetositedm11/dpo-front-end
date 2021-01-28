@@ -24,8 +24,7 @@ const Success: React.FC<Props> = ({ setOpen, open, id }) => {
           <FiCheck />
         </section>
         <h3>Sucesso</h3>
-        <p>Nas próximas horas enviaremos uma proposta em PDF para você.</p>
-        <p> O DPO|BackOffice agradece pela oportunidade. </p>
+        <p>Nas próximas horas você receberá uma proposta no formato PDF em seu email.</p>
         <button id={id} onClick={(e) => handleClose(e)}>
           Ok
         </button>

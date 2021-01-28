@@ -27,8 +27,8 @@ const Success: React.FC<Props> = ({ setOpen, open, id, redirect }) => {
         </section>
         <h3>Sucesso</h3>
         <p>
-          Estamos analisando as propriedades de seu ambiente e nas próximas horas enviaremos uma
-          proposta em PDF para você.
+          Estamos analisando as propriedades de seu ambiente e nas próximas horas você receberá uma
+          proposta no formato PDF em seu email.
         </p>
         <button id={id} onClick={(e) => handleClose(e)}>
           Ok
