@@ -11,7 +11,7 @@ export const Container = styled.div<ContainerProps>`
   background-repeat: no-repeat;
   width: 100%;
   min-height: 720px;
-  margin-top: -10px;
+  margin-top: -40px;
   border-bottom: 1px solid ${(props) => props.theme.blue};
 `
 
@@ -28,7 +28,7 @@ export const Content = styled.div`
     max-width: 500px;
     width: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
-    border: 1px solid ${(props) => props.theme.lightDark};
+    border: 1px solid ${(props) => props.theme.VerylightDark};
     background: ${(props) => props.theme.white};
     border-radius: 30px;
     padding: 10px 20px;
