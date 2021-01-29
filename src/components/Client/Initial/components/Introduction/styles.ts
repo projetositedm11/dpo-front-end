@@ -16,9 +16,9 @@ export const Container = styled.div<ContainerProps>`
 `
 
 export const Content = styled.div`
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 40px 0;
   margin-bottom: 100px;
   display: grid;
   padding-top: 150px;
@@ -32,7 +32,7 @@ export const Content = styled.div`
     background: ${(props) => props.theme.white};
     border-radius: 30px;
     padding: 10px 20px;
-    margin-left: -120px;
+    margin-left: 0px;
     @media (max-width: 800px) {
       margin: 0 auto;
     }
