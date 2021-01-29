@@ -16,9 +16,9 @@ export const Container = styled.div<ContainerProps>`
 `
 
 export const Content = styled.div`
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 20px 0;
   margin-bottom: 100px;
   display: grid;
   padding-top: 150px;
