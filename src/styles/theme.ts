@@ -12,6 +12,7 @@ const theme = {
   lightGrey: '#eee',
   lightGreyOpacity: '#eeeeee52',
   lightDark: '#595959',
+  VerylightDark: '#D2D2D2',
   greyText: '#7a7a7a',
   greyTextOpacity: '#7a7a7a40',
   darkOpacity: 'rgba(0,0,0,0.6)',
