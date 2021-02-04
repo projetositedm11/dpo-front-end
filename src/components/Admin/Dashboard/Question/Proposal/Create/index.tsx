@@ -178,7 +178,7 @@ const Create = () => {
         logic: inputsLogic,
         checkbox: inputCheckBox.items,
       })
-      push('/admin-proposal-question')
+      push('/L0gu1N@Dp0B4cK645olg-proposal-question')
       setError('')
     } catch (error) {
       console.log(error)
@@ -187,7 +187,10 @@ const Create = () => {
 
   return (
     <Layout>
-      <Header title={`Criar pergunta para proposta - `} backLink="/admin-proposal-question" />
+      <Header
+        title={`Criar pergunta para proposta - `}
+        backLink="/L0gu1N@Dp0B4cK645olg-proposal-question"
+      />
       <WrapperForm>
         {error && (
           <div style={{ marginTop: '15px' }}>

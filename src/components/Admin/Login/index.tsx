@@ -100,7 +100,7 @@ const Login: React.FC = () => {
           token()
 
           setOnLoad(false)
-          push('/admin-dashboard')
+          push('/L0gu1N@Dp0B4cK645olg-dashboard')
         } catch (error) {
           setOnLoad(false)
           return setError('Senha inválida')

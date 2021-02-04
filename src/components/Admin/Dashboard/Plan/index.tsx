@@ -52,7 +52,7 @@ const Plan: React.FC = () => {
 
   return (
     <Layout>
-      <Header title="Plano" link="/admin-create-plan" />
+      <Header title="Plano" link="/L0gu1N@Dp0B4cK645olg-create-plan" />
       <Container>
         {loading === true ? (
           <Loading>

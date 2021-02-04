@@ -220,7 +220,7 @@ const Edit = ({ id }) => {
         logic: inputsLogic,
         checkbox: inputCheckBox.items,
       })
-      push('/admin-proposal-question')
+      push('/L0gu1N@Dp0B4cK645olg-proposal-question')
       setError('')
     } catch (error) {
       console.log(error)
@@ -231,7 +231,10 @@ const Edit = ({ id }) => {
 
   return (
     <Layout>
-      <Header title={`Editar pergunta proposta`} backLink="/admin-proposal-question" />
+      <Header
+        title={`Editar pergunta proposta`}
+        backLink="/L0gu1N@Dp0B4cK645olg-proposal-question"
+      />
       <WrapperForm>
         {error && (
           <div style={{ marginTop: '15px' }}>

@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ title, backLink }) => {
   return (
     <Container>
       <WrapperIcon>
-        <Link href={backLink || '/admin-dashboard'}>
+        <Link href={backLink || '/L0gu1N@Dp0B4cK645olg-dashboard'}>
           <a>
             <IoArrowBackSharp />
           </a>

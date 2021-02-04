@@ -61,56 +61,58 @@ const SideBar: React.FC = () => {
             <NavLogo>DPOBackoffice</NavLogo>
           </NavBrand>
           <NavList>
-            <Link href="/admin-dashboard">
-              <NavLink active={router.pathname === '/admin-dashboard' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-dashboard">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-dashboard' && true}>
                 <NavIcon>
                   <IoIosHome />
                 </NavIcon>
                 <ItemNavName>Dashboard</ItemNavName>
               </NavLink>
             </Link>
-            <Link href="/admin-category">
-              <NavLink active={router.pathname === '/admin-category' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-category">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-category' && true}>
                 <NavIcon>
                   <IoIosFolder />
                 </NavIcon>
                 <ItemNavName>Categoria</ItemNavName>
               </NavLink>
             </Link>
-            <Link href="/admin-service">
-              <NavLink active={router.pathname === '/admin-service' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-service">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-service' && true}>
                 <NavIcon>
                   <IoDocumentText />
                 </NavIcon>
                 <ItemNavName>Serviço</ItemNavName>
               </NavLink>
             </Link>
-            <Link href="/admin-plan">
-              <NavLink active={router.pathname === '/admin-plan' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-plan">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-plan' && true}>
                 <NavIcon>
                   <IoIosBrowsers />
                 </NavIcon>
                 <ItemNavName>Plano</ItemNavName>
               </NavLink>
             </Link>
-            <Link href="/admin-proposal-question">
-              <NavLink active={router.pathname === '/admin-proposal-question' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-proposal-question">
+              <NavLink
+                active={router.pathname === '/L0gu1N@Dp0B4cK645olg-proposal-question' && true}
+              >
                 <NavIcon>
                   <IoIosClipboard />
                 </NavIcon>
                 <ItemNavName>Pergunta</ItemNavName>
               </NavLink>
             </Link>
-            {/* <Link href="/admin-logic">
-              <NavLink active={router.pathname === '/admin-logic' && true}>
+            {/* <Link href="/L0gu1N@Dp0B4cK645olg-logic">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-logic' && true}>
                 <NavIcon>
                   <IoMdCalculator />
                 </NavIcon>
                 <ItemNavName>Lógica</ItemNavName>
               </NavLink>
             </Link> */}
-            <Link href="/admin-security">
-              <NavLink active={router.pathname === '/admin-security' && true}>
+            <Link href="/L0gu1N@Dp0B4cK645olg-security">
+              <NavLink active={router.pathname === '/L0gu1N@Dp0B4cK645olg-security' && true}>
                 <NavIcon>
                   <IoLogoBuffer />
                 </NavIcon>

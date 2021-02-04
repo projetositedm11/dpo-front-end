@@ -153,7 +153,7 @@ const Create: React.FC = () => {
 
       await api.put(`/admin/uploadImage/${data._id}`, fileForm)
 
-      push('/admin-service')
+      push('/L0gu1N@Dp0B4cK645olg-service')
     } catch (error) {
       console.log(error)
       console.log(error.response.data)
@@ -162,7 +162,7 @@ const Create: React.FC = () => {
 
   return (
     <Layout>
-      <Header title={`Criar serviço - ${title}`} backLink="/admin-service" />
+      <Header title={`Criar serviço - ${title}`} backLink="/L0gu1N@Dp0B4cK645olg-service" />
       <WrapperForm>
         <FieldContainer>
           <Input

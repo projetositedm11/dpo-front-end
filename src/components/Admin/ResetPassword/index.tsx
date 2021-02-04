@@ -59,7 +59,7 @@ const ResetPassword: React.FC<Props> = ({ token }) => {
       setSuccess('Alterado com sucesso')
       setOnLoad(false)
       setTimeout(() => {
-        push('/admin')
+        push('/L0gu1N@Dp0B4cK645olg')
       }, 2000)
     } catch (error) {
       setOnLoad(false)

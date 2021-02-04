@@ -56,7 +56,7 @@ const Category: React.FC = () => {
 
   return (
     <Layout>
-      <Header title="Categoria" link="/admin-create-category" />
+      <Header title="Categoria" link="/L0gu1N@Dp0B4cK645olg-create-category" />
       <Container>
         <ErrorContainer>
           {error.show === true && (

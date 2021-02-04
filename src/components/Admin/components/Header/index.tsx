@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ title, showAdd = true, link }) => {
     <Container>
       <Title>{title}</Title>
       {showAdd && (
-        <Link href={link || '/admin-dashboard'}>
+        <Link href={link || '/L0gu1N@Dp0B4cK645olg-dashboard'}>
           <Button> Adicionar </Button>
         </Link>
       )}

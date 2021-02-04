@@ -18,22 +18,22 @@ const SideMobileNav: React.FC<Props> = ({ open, setOpenSideBar }) => {
   return (
     <Container open={open}>
       <ul>
-        <Link href="/admin-dashboard">
+        <Link href="/L0gu1N@Dp0B4cK645olg-dashboard">
           <a onClick={() => setOpenSideBar(!open)}>Dashboard</a>
         </Link>
-        <Link href="/admin-category">
+        <Link href="/L0gu1N@Dp0B4cK645olg-category">
           <a onClick={() => setOpenSideBar(!open)}>Categorias</a>
         </Link>
-        <Link href="/admin-service">
+        <Link href="/L0gu1N@Dp0B4cK645olg-service">
           <a onClick={() => setOpenSideBar(!open)}>Serviços</a>
         </Link>
-        <Link href="/admin-plan">
+        <Link href="/L0gu1N@Dp0B4cK645olg-plan">
           <a onClick={() => setOpenSideBar(!open)}>Planos</a>
         </Link>
-        <Link href="/admin-question">
+        <Link href="/L0gu1N@Dp0B4cK645olg-question">
           <a onClick={() => setOpenSideBar(!open)}>Perguntas</a>
         </Link>
-        <Link href="/admin-security">
+        <Link href="/L0gu1N@Dp0B4cK645olg-security">
           <a onClick={() => setOpenSideBar(!open)}>Segurança</a>
         </Link>
         <Link href="/">

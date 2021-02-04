@@ -81,7 +81,7 @@ const Create: React.FC = () => {
       })
 
       setError('')
-      push('/admin-plan')
+      push('/L0gu1N@Dp0B4cK645olg-plan')
     } catch (error) {
       console.log(error.response.data)
     }
@@ -95,7 +95,7 @@ const Create: React.FC = () => {
         title={`Criar plano - ${title} ${
           isNaN(finalPrice) === false ? `(R$ ${finalPrice.toLocaleString().replace(',', '.')})` : ''
         } `}
-        backLink="/admin-plan"
+        backLink="/L0gu1N@Dp0B4cK645olg-plan"
       />
       {error && (
         <ErrorContainer>

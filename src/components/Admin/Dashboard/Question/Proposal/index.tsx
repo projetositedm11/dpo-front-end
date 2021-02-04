@@ -37,7 +37,7 @@ const ProposalQuestion = () => {
 
   return (
     <Layout>
-      <Header title="Pergunta - Proposta" link="/admin-create-proposal-question" />
+      <Header title="Pergunta - Proposta" link="/L0gu1N@Dp0B4cK645olg-create-proposal-question" />
       {loading === true ? (
         <Loading>
           <p>Carregando...</p>

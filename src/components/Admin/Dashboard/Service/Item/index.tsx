@@ -39,7 +39,7 @@ const Item: React.FC<ItemProps> = ({ service, deleteService }) => {
           {service.title} - {service.category.title}{' '}
         </Title>
         <Actions>
-          <Button onClick={() => push(`/admin-edit-service/${service._id}`)}>
+          <Button onClick={() => push(`/L0gu1N@Dp0B4cK645olg-edit-service/${service._id}`)}>
             <FiEdit />
           </Button>
           {confirmDelete ? (

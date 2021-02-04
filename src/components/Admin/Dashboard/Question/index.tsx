@@ -11,7 +11,7 @@ const Question: React.FC = () => {
       <Container>
         <QuestionItem>
           <p>Proposta</p>
-          <Link href="/admin-proposal-question">
+          <Link href="/L0gu1N@Dp0B4cK645olg-proposal-question">
             <a>Acessar &rarr;</a>
           </Link>
         </QuestionItem>

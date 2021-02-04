@@ -30,7 +30,9 @@ const Item = ({ question, deleteQuestion }) => {
       <Header>
         <Title>{question.title} </Title>
         <Actions>
-          <Button onClick={() => push(`/admin-edit-proposal-question/${question._id}`)}>
+          <Button
+            onClick={() => push(`/L0gu1N@Dp0B4cK645olg-edit-proposal-question/${question._id}`)}
+          >
             <FiEdit />
           </Button>
           {confirmDelete ? (

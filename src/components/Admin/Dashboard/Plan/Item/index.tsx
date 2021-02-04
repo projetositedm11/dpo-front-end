@@ -43,7 +43,7 @@ const Item: React.FC<ItemProps> = ({
           {title} - R$ {price.toLocaleString().replace(',', '.')}
         </Title>
         <Actions>
-          <Button onClick={() => push(`/admin-edit-plan/${_id}`)}>
+          <Button onClick={() => push(`/L0gu1N@Dp0B4cK645olg-edit-plan/${_id}`)}>
             <FiEdit />
           </Button>
           {confirmDelete ? (

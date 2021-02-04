@@ -37,7 +37,7 @@ const Item: React.FC<ItemProps> = ({ title, relatedServices, id, deleteItem }) =
       <Header>
         <Title>{title}</Title>
         <Actions>
-          <Button onClick={() => push(`/admin-edit-category/${id}`)}>
+          <Button onClick={() => push(`/L0gu1N@Dp0B4cK645olg-edit-category/${id}`)}>
             <FiEdit />
           </Button>
           {confirmDelete ? (

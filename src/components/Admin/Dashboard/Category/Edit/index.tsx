@@ -53,7 +53,7 @@ const Edit: React.FC<Props> = ({ id }) => {
       await api.put(`/admin/edit/category/${id}`, { title })
 
       setError('')
-      push('/admin-category')
+      push('/L0gu1N@Dp0B4cK645olg-category')
     } catch (error) {
       return setError('Titulo já está em uso')
     }
@@ -61,7 +61,7 @@ const Edit: React.FC<Props> = ({ id }) => {
 
   return (
     <Layout>
-      <Header title="Editar categoria" backLink="/admin-category" />
+      <Header title="Editar categoria" backLink="/L0gu1N@Dp0B4cK645olg-category" />
       <WrapperForm onSubmit={(e) => onSubmit(e)}>
         {error && <Error>{error}</Error>}
         <Input

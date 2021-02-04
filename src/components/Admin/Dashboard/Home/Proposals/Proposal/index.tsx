@@ -184,7 +184,7 @@ const Proposal = ({
                     <Logic>
                       <div>
                         <label> Serviço: </label>
-                        <p> {item.service.title} </p>
+                        <p> {(item.service && item.service.title) || 'Serviço removido.'} </p>
                         <label> Valor final: </label>
                         <p>
                           {' '}

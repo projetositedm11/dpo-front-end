@@ -24,11 +24,9 @@ import EditPlan from './Admin/Dashboard/Plan/Edit'
 import Question from './Admin/Dashboard/Question'
 import EditService from './Admin/Dashboard/Service/Edit'
 import ProposalQuestion from './Admin/Dashboard/Question/Proposal'
-import HelpQuestion from './Admin/Dashboard/Question/Help'
 import AddProposalQuestion from './Admin/Dashboard/Question/Proposal/Create'
 import EditProposalQuestion from './Admin/Dashboard/Question/Proposal/Edit'
 
-import AddHelpQuestion from './Admin/Dashboard/Question/Help/Create'
 import ResetPassword from './Admin/ResetPassword'
 
 export {
@@ -52,10 +50,8 @@ export {
   Question,
   ServiceItem,
   ProposalQuestion,
-  HelpQuestion,
   AddProposalQuestion,
   EditProposalQuestion,
-  AddHelpQuestion,
   ResetPassword,
   Faq,
   ServicePopUp,

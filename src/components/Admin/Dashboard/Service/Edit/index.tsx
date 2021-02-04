@@ -227,7 +227,7 @@ const Edit = ({ id }) => {
         await api.put(`/admin/uploadImage/${id}`, data)
       }
 
-      push('/admin-service')
+      push('/L0gu1N@Dp0B4cK645olg-service')
     } catch (error) {
       console.log(error)
     }
@@ -240,8 +240,7 @@ const Edit = ({ id }) => {
 
   return (
     <Layout>
-      {category}
-      <Header title={`Editar serviço - ${title}`} backLink="/admin-service" />
+      <Header title={`Editar serviço - ${title}`} backLink="/L0gu1N@Dp0B4cK645olg-service" />
       <WrapperForm>
         <FieldContainer>
           <Input
