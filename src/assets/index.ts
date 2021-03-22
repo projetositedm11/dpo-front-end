@@ -7,5 +7,17 @@ import Cookie from './cookie.png'
 import DefaultService from './default_service.png'
 import FaqImage from './faq.png'
 import BgIntroduction from './bg_introduction.png'
+import IconLogo from './icon_logo.png'
 
-export { Check, Logo, NoCheck, Safe, StartImage, Cookie, DefaultService, FaqImage, BgIntroduction }
+export {
+  Check,
+  Logo,
+  NoCheck,
+  Safe,
+  StartImage,
+  Cookie,
+  DefaultService,
+  FaqImage,
+  BgIntroduction,
+  IconLogo,
+}

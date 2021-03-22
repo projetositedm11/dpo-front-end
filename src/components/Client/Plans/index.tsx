@@ -316,7 +316,7 @@ const Plans: React.FC<Props> = ({ slug, plan }) => {
                 </Resume>
               </Grid>
               <TitleServices>Saiba mais sobre os serviços inclusos</TitleServices>
-              {plan.includedServices.length <= 0 && <Message>Nenhum serviço incuido</Message>}
+              {plan.includedServices.length <= 0 && <Message>Nenhum serviço incluído</Message>}
               <GridService>
                 {plan.includedServices &&
                   plan.includedServices.map((service) => (

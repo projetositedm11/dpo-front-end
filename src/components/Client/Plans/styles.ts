@@ -118,6 +118,7 @@ export const Resume = styled.div`
     font-size: 19px;
     color: ${(props) => props.theme.dark};
     text-align: justify;
+    word-break: break-all;
   }
 `
 

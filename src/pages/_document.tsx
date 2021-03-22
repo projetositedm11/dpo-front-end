@@ -7,6 +7,7 @@ import Document, {
   NextScript,
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { IconLogo } from '../assets'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -44,6 +45,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap"
             rel="stylesheet"
           />
+          <link rel="shortcut icon" href={IconLogo} type="image/x-icon"></link>
         </Head>
         <body>
           <Main />

@@ -53,6 +53,7 @@ export const Item = styled.div`
     margin-top: 8px;
     margin-left: 4px;
     color: ${(props) => props.theme.lightDark} !important;
+    word-break: break-all;
   }
   div {
     margin-top: 20px;

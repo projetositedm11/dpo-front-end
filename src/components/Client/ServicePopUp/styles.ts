@@ -23,7 +23,6 @@ export const Container = styled.div`
   margin: 40px auto;
   width: 100%;
   border-radius: 5px;
-  border: 5px solid ${(props) => props.theme.blue};
   padding: 30px 50px;
   background: ${(props) => props.theme.white};
   @media (max-width: 768px) {

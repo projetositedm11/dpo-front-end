@@ -5,18 +5,19 @@ import Item from './Item'
 import { Error, ServicePopUp } from '../../index'
 import { useRouter } from 'next/router'
 import ScaleLoader from 'react-spinners/ScaleLoader'
+import DropDown from './DropDown'
 import {
   Container,
   Header,
   Bold,
   Content,
-  Title,
-  Row,
-  Message,
   DownBar,
   Loading,
   ErrorContainer,
+  HowToContract,
 } from './styles'
+import { ImRadioUnchecked } from 'react-icons/im'
+import { IoIosArrowDown } from 'react-icons/io'
 
 export interface IService {
   _id: string
@@ -153,6 +154,26 @@ const Services: React.FC = () => {
               Nossos serviços <Bold>{'/>'}</Bold>
             </h3>
           </Header>
+          <HowToContract>
+            <section>
+              <h2>Como contratar nossos serviços?</h2>
+              <p>
+                Para realizar um orçamento, selecione um ou mais serviços clicando no{' '}
+                <ImRadioUnchecked color="rgba(0,112,192, 1)" size={20} /> e em seguida clique no
+                botão <span>"Ir para cotação"</span>, localizado na parte inferior da tela. Para
+                melhor navegação, você pode clicar no ícone.
+              </p>
+              <p>
+                <span>Alguns serviços necessitam de pré-requisitos</span>, que podem ser contratados
+                por esta mesma página. Antes de iniciar um orçamento, é muito importante
+                certificar-se que você ja possui os pré-requisitos em sua organização ou que o
+                selecionou aqui para orçarmos ele também.
+              </p>
+              <p>
+                Para melhor navegação, utilize o ícone <IoIosArrowDown size={25} color="#293241" />
+              </p>
+            </section>
+          </HowToContract>
           {error && (
             <ErrorContainer>
               <Error>{error}</Error>
@@ -162,27 +183,14 @@ const Services: React.FC = () => {
             {loading === false ? (
               category &&
               category.map((category) => (
-                <div key={category._id}>
-                  <header>
-                    <Title>{category.title}</Title>
-                  </header>
-                  {category.services.length <= 0 && (
-                    <Message>Nenhum serviço nesta categoria</Message>
-                  )}
-                  <Row>
-                    {category.services &&
-                      category.services.map((service) => (
-                        <Item
-                          showMore={showMore}
-                          key={service._id}
-                          addCartItem={addCartItem}
-                          removeCartItem={removeCartItem}
-                          item={service}
-                          checked={handleCheck(service._id)}
-                        />
-                      ))}
-                  </Row>
-                </div>
+                <DropDown
+                  key={category._id}
+                  category={category}
+                  showMore={showMore}
+                  addCartItem={addCartItem}
+                  removeCartItem={removeCartItem}
+                  handleCheck={handleCheck}
+                />
               ))
             ) : (
               <Loading>
