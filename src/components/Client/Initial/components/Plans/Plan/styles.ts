@@ -65,7 +65,10 @@ export const Resume = styled.div`
   text-align: center;
   margin-top: -20px;
   margin-bottom: 30px;
+
   p {
     color: ${(props) => props.theme.greyText};
+    word-break: break-all;
+    padding: 0 10px;
   }
 `

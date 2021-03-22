@@ -5,10 +5,9 @@ import Layout from '../../index'
 import Input from '../../../../Bases/Input'
 import Select, { OptionsType } from 'react-select'
 import api from '../../../../../services/api'
-import { WrapperForm, SaveButton, FieldContainer, Row, Flex, ErrorContainer } from './styles'
+import { WrapperForm, SaveButton, FieldContainer, Row, ErrorContainer } from './styles'
 import { Error, TextArea } from '../../../../index'
 import { Include } from './components'
-import { IInclude } from '../Edit/index'
 
 interface Option {
   label: string

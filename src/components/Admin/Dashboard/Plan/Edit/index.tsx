@@ -7,7 +7,7 @@ import Select, { OptionsType } from 'react-select'
 import api from '../../../../../services/api'
 import { WrapperForm, SaveButton, FieldContainer, Row, ErrorContainer } from './styles'
 import { Error, TextArea } from '../../../../index'
-import { Include } from '../Create/components'
+import Include from '../Create/components/Include'
 
 interface Option {
   label: string
@@ -82,6 +82,22 @@ const Edit: React.FC<Porps> = ({ id }) => {
             label: service.title,
             value: service._id,
           })
+        })
+
+        data.included = data.included.map(({ description, title, _id }) => {
+          return {
+            description,
+            title,
+            id: _id,
+          }
+        })
+
+        data.notIncluded = data.notIncluded.map(({ description, title, _id }) => {
+          return {
+            description,
+            title,
+            id: _id,
+          }
         })
 
         setOptions(newOptions)

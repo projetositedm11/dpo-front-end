@@ -34,55 +34,52 @@ export const Content = styled.div`
   margin: 0 auto;
   margin-top: 20px;
 
-  header {
-    margin-top: 50px;
-    padding: 15px 0;
-    text-align: center;
-    border-top: 1px solid ${(props) => props.theme.blue};
-    border-bottom: 1px solid ${(props) => props.theme.blue};
-
-    @media (max-width: 1250px) {
-      margin: 0 30px;
-      margin-top: 50px;
-    }
-  }
-
   @media (max-width: 950px) {
     max-width: 700px;
   }
 `
 
-export const Title = styled.h3`
-  color: ${(props) => props.theme.lightDark};
-  font-size: 25px;
-`
-
-export const Row = styled.div`
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+export const HowToContract = styled.div`
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 
   @media (max-width: 1250px) {
     margin: 0 30px;
-    margin-top: 40px;
   }
 
-  @media (max-width: 950px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  section {
+    margin-top: 35px;
+    h2 {
+      color: ${(props) => props.theme.blue};
+      font-size: 22px;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
 
-  @media (max-width: 700px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-`
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
 
-export const Message = styled.p`
-  color: ${(props) => props.theme.blue};
-  font-weight: bold;
-  margin: 35px;
-  font-size: 20px;
-  text-align: center;
+    p {
+      margin-top: 15px;
+      color: ${(props) => props.theme.dark};
+      font-size: 18px;
+
+      span {
+        color: ${(props) => props.theme.blue};
+      }
+
+      svg {
+        margin-bottom: -3px;
+
+        &:last-child {
+          margin-bottom: -5px;
+        }
+      }
+    }
+  }
 `
 
 export const ErrorContainer = styled.p`

@@ -11,7 +11,7 @@ const Faq: React.FC = () => {
   const [itemsLGPD, setItemsLGPD] = useState(LGPDquestions)
   const [itemsDPO, setItemsDPO] = useState(DPOquestions)
 
-  const toggleFaqLGPD = (index) => {
+  const toggleFaqLGPD = (index: number) => {
     setItemsLGPD(
       itemsLGPD.map((faq, i) => {
         if (i === index) {
@@ -23,7 +23,7 @@ const Faq: React.FC = () => {
       }),
     )
   }
-  const toggleFaqDPO = (index) => {
+  const toggleFaqDPO = (index: number) => {
     setItemsDPO(
       itemsDPO.map((faq, i) => {
         if (i === index) {

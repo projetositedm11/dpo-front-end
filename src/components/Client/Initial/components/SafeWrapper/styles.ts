@@ -66,6 +66,7 @@ export const Content = styled.div`
 
 export const ImageContainer = styled.div`
   width: 100%;
+  margin-top: 60px;
 
   @media (max-width: 800px) {
     margin: 0 auto;

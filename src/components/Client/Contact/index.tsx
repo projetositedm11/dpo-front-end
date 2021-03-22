@@ -232,7 +232,7 @@ const Contact: React.FC = () => {
 
     emailjs
       .sendForm(
-        'service_668wce3',
+        'service_cjw2tn7',
         'template_mvdxvk6',
         e.target as HTMLFormElement,
         'user_IlFl2az7Oc0NnYu3gPVmD',
@@ -247,6 +247,7 @@ const Contact: React.FC = () => {
         (error) => {
           setOnLoad(false)
           scrollTo(0, 0)
+          console.log(error)
           setError('Erro no envio, tente novamente mais tarde')
         },
       )

@@ -10,8 +10,7 @@ import {
   IconContainer,
 } from './styles'
 import { IService } from '../Services/index'
-import Link from 'next/link'
-import Item from './Item'
+import Item from '../Services/Item'
 import { MouseEvent } from 'react'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 interface Props {
@@ -19,12 +18,20 @@ interface Props {
   service: IService
   openModal: boolean
   closeModal: () => void
+  addCartItem: (id: string) => void
+  removeCartItem: (id: string) => void
+  showMore: (slug: string) => void
+  handleCheck: (id: string) => boolean
 }
 
 const ServicePopUp: React.FC<Props> = ({
-  service: { slug, title, resume, prerequisitesService },
+  service: { title, resume, prerequisitesService, _id, deliverable },
   openModal,
   id,
+  addCartItem,
+  handleCheck,
+  removeCartItem,
+  showMore,
   closeModal,
 }) => {
   function handleCloseModal(e: MouseEvent<HTMLDivElement>): void {
@@ -46,24 +53,32 @@ const ServicePopUp: React.FC<Props> = ({
           </div>
         </IconContainer>
         <Description>{resume}</Description>
-        <ButtonContainer>
-          <Link href={`/servico/${slug}`}>
-            <a>Conhecer detalhes do serviço</a>
-          </Link>
+        <ButtonContainer onClick={() => addCartItem(_id)}>
+          Selecionar serviço para cotação
         </ButtonContainer>
+        <Subtitle>Entregáveis</Subtitle>
+        <Description>
+          <ul>
+            {deliverable.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </Description>
         <Subtitle>Pré-requisitos </Subtitle>
         {!prerequisitesService && <Message>Nenhum pré-requisitos</Message>}
         <Grid>
           {prerequisitesService &&
             prerequisitesService.map((service) => (
-              <Item key={service._id} title={service.title} slug={service.slug} />
+              <Item
+                key={service._id}
+                showMore={showMore}
+                addCartItem={addCartItem}
+                removeCartItem={removeCartItem}
+                item={service}
+                checked={handleCheck(service._id)}
+              />
             ))}
         </Grid>
-        <Subtitle>O que são pré-requisitos?</Subtitle>
-        <Description>
-          São itens que são necessários para iniciar um serviço. Você não pode iniciar um serviço
-          sem ter os documentos necessários prontos, já em posse de sua organização.
-        </Description>
       </Container>
     </Main>
   )

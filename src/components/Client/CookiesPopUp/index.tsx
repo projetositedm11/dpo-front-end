@@ -28,6 +28,12 @@ const CookiesPopUp = () => {
   }
 
   const handleClickToggle = (): void => {
+    if (isChecked) {
+      localStorage.setItem('cookie', JSON.stringify(true))
+    } else {
+      localStorage.setItem('cookie', JSON.stringify(false))
+    }
+
     if (cookie === 'true') {
       setCookie('false')
     } else {
@@ -55,7 +61,11 @@ const CookiesPopUp = () => {
 
   useEffect(() => {
     readCookie()
-    const cookie = JSON.parse(localStorage.getItem('cookie'))
+    let cookie = JSON.parse(localStorage.getItem('cookie'))
+
+    if (!cookie) {
+      cookie = true
+    }
 
     setIsChecked(cookie)
   }, [])

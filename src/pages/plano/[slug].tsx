@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import { Plans } from '../../components'
 import api from '../../services/api'
 
