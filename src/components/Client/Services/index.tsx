@@ -213,6 +213,10 @@ const Services: React.FC = () => {
         openModal={openModal}
         service={serviceModal}
         closeModal={closeModal}
+        showMore={showMore}
+        addCartItem={addCartItem}
+        removeCartItem={removeCartItem}
+        handleCheck={handleCheck}
       />
     </>
   )
