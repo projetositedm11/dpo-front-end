@@ -66,7 +66,6 @@ const CookiesPopUp = () => {
     if (!cookie) {
       cookie = true
     }
-
     setIsChecked(cookie)
   }, [])
 
