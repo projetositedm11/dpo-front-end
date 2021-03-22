@@ -63,7 +63,9 @@ const CookiesPopUp = () => {
     readCookie()
     let cookie = JSON.parse(localStorage.getItem('cookie'))
 
-    if (!cookie) cookie = true
+    if (!cookie) {
+      cookie = true
+    }
 
     setIsChecked(cookie)
   }, [])
