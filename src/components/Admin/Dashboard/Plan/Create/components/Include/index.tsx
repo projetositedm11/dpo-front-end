@@ -29,7 +29,6 @@ const Include = ({ items, setInclude, title, label }) => {
 
   function removeItemIncluded(id: string): void {
     const newItems = items.filter((item) => item.id !== id)
-
     setInclude(newItems)
   }
 
