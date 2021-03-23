@@ -1,3 +1,4 @@
+import { MouseEvent } from 'react'
 import {
   Container,
   Main,
@@ -10,9 +11,9 @@ import {
   IconContainer,
 } from './styles'
 import { IService } from '../Services/index'
-import Item from '../Services/Item'
-import { MouseEvent } from 'react'
+import Item from './Item'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
+import { useRouter } from 'next/router'
 interface Props {
   id: string
   service: IService
@@ -20,20 +21,20 @@ interface Props {
   closeModal: () => void
   addCartItem: (id: string) => void
   removeCartItem: (id: string) => void
-  showMore: (slug: string) => void
   handleCheck: (id: string) => boolean
 }
 
 const ServicePopUp: React.FC<Props> = ({
-  service: { title, resume, prerequisitesService, _id, deliverable },
+  service: { title, resume, prerequisitesService, slug },
   openModal,
   id,
   addCartItem,
   handleCheck,
   removeCartItem,
-  showMore,
   closeModal,
 }) => {
+  const { push } = useRouter()
+
   function handleCloseModal(e: MouseEvent<HTMLDivElement>): void {
     const target = e.target as HTMLDivElement
 
@@ -53,17 +54,9 @@ const ServicePopUp: React.FC<Props> = ({
           </div>
         </IconContainer>
         <Description>{resume}</Description>
-        <ButtonContainer onClick={() => addCartItem(_id)}>
-          Selecionar serviço para cotação
+        <ButtonContainer onClick={() => push(`/servico/${slug}`)}>
+          Conceder detalhes do serviço
         </ButtonContainer>
-        <Subtitle>Entregáveis</Subtitle>
-        <Description>
-          <ul>
-            {deliverable.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ul>
-        </Description>
         <Subtitle>Pré-requisitos </Subtitle>
         {!prerequisitesService && <Message>Nenhum pré-requisitos</Message>}
         <Grid>
@@ -71,7 +64,6 @@ const ServicePopUp: React.FC<Props> = ({
             prerequisitesService.map((service) => (
               <Item
                 key={service._id}
-                showMore={showMore}
                 addCartItem={addCartItem}
                 removeCartItem={removeCartItem}
                 item={service}

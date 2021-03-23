@@ -29,6 +29,7 @@ import {
 import api from '../../../services/api'
 import validator from 'validator'
 import { format, validate } from 'cnpj'
+import { IService } from '../Services/index'
 
 interface Props {
   slug: string
@@ -319,8 +320,8 @@ const Plans: React.FC<Props> = ({ slug, plan }) => {
               {plan.includedServices.length <= 0 && <Message>Nenhum serviço incluído</Message>}
               <GridService>
                 {plan.includedServices &&
-                  plan.includedServices.map((service) => (
-                    <Service key={service._id} slug={service.slug} title={service.title} />
+                  plan.includedServices.map((service: IService) => (
+                    <Service key={service._id} item={service} />
                   ))}
               </GridService>
             </Content>
