@@ -23,8 +23,12 @@ const Item: React.FC<Props> = ({
   const [show, setShow] = useState<boolean>(false)
 
   useEffect(() => {
-    if (checked) setShow(true)
-  }, [])
+    if (checked) {
+      setShow(true)
+    } else {
+      setShow(false)
+    }
+  }, [checked])
 
   function changeClick(e: MouseEvent<HTMLDivElement>, id: string): void {
     const target = e.target as HTMLDivElement

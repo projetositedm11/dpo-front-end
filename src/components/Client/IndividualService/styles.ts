@@ -27,6 +27,27 @@ export const Bold = styled.h3`
   font-weight: bold;
 `
 
+export const ButtonContainer = styled.div`
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+  color: ${(props) => props.theme.white};
+  background: ${(props) => props.theme.blue};
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid ${(props) => props.theme.blue};
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+`
+
 export const TextItem = styled.li`
   font-size: 20px;
   color: ${(props) => props.theme.lightDark};
