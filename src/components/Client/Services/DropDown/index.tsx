@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { MdClose } from 'react-icons/md'
 import { IoIosArrowDown } from 'react-icons/io'
 import { IService } from '../index'
@@ -16,16 +16,9 @@ interface Props {
   addCartItem: (id: string) => void
   removeCartItem: (id: string) => void
   showMore: (slug: string) => void
-  handleCheck: (id: string) => boolean
 }
 
-const DropDown: React.FC<Props> = ({
-  category,
-  showMore,
-  addCartItem,
-  removeCartItem,
-  handleCheck,
-}) => {
+const DropDown: React.FC<Props> = ({ category, showMore, addCartItem, removeCartItem }) => {
   const [open, setOpen] = useState<boolean>(false)
 
   return (
@@ -45,7 +38,7 @@ const DropDown: React.FC<Props> = ({
                 addCartItem={addCartItem}
                 removeCartItem={removeCartItem}
                 item={service}
-                checked={handleCheck(service._id)}
+                checked={service.check}
               />
             ))}
         </Row>

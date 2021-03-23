@@ -58,12 +58,20 @@ export const ButtonContainer = styled.div`
   width: 100%;
   margin-bottom: 60px;
   text-align: center;
-  color: ${(props) => props.theme.white};
-  background: ${(props) => props.theme.blue};
+  color: ${(props) => props.theme.blue};
+  background: ${(props) => props.theme.white};
   padding: 10px;
   border-radius: 5px;
+  border: 1px solid ${(props) => props.theme.blue};
   font-size: 18px;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transition: all 0.3s ease;
+    color: ${(props) => props.theme.white};
+    background: ${(props) => props.theme.blue};
+  }
 
   @media (max-width: 768px) {
     a {

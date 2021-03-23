@@ -1,4 +1,4 @@
 import RenderDescription from './RenderDescription'
-import Service from './Service'
+import Service from '../components/Service'
 
 export { RenderDescription, Service }
