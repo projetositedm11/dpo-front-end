@@ -1,20 +1,32 @@
-import { Container } from './styles'
-import Link from 'next/link'
+import { DefaultService } from '../../../../../assets'
+import { Container, Image, Header } from './styles'
+import { IService } from '../../../Services'
+import { useRouter } from 'next/router'
+import { IoCheckmarkCircleSharp } from 'react-icons/io5'
 
 interface Props {
-  slug: string
-  title: string
+  item: IService
 }
 
-const Service: React.FC<Props> = ({ slug, title }) => {
+const Item: React.FC<Props> = ({ item: { title, slug, image } }) => {
+  const { push } = useRouter()
+
   return (
     <Container>
-      <p>{title}</p>
-      <Link href={`/servico/${slug}`}>
-        <a>Saiba Mais</a>
-      </Link>
+      <div style={{ textAlign: 'end' }}>
+        <IoCheckmarkCircleSharp />
+      </div>
+      <Header>
+        <p>{title}</p>
+        <Image url={image?.url || DefaultService} />
+      </Header>
+      <div style={{ textAlign: 'center' }}>
+        <button onClick={() => push(`/servico/${slug}`)} id="button">
+          Saiba mais
+        </button>
+      </div>
     </Container>
   )
 }
 
-export default Service
+export default Item
