@@ -45,11 +45,12 @@ export const HowToContract = styled.div`
   margin: 0 auto;
 
   @media (max-width: 1250px) {
-    margin: 0 30px;
+    padding: 0 30px;
   }
 
   section {
     margin-top: 35px;
+
     h2 {
       color: ${(props) => props.theme.blue};
       font-size: 22px;
@@ -65,7 +66,7 @@ export const HowToContract = styled.div`
     p {
       margin-top: 15px;
       color: ${(props) => props.theme.dark};
-      font-size: 18px;
+      font-size: 17px;
 
       span {
         color: ${(props) => props.theme.blue};
