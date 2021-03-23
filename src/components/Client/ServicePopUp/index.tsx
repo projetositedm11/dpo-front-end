@@ -55,7 +55,7 @@ const ServicePopUp: React.FC<Props> = ({
         </IconContainer>
         <Description>{resume}</Description>
         <ButtonContainer onClick={() => push(`/servico/${slug}`)}>
-          Conceder detalhes do serviço
+          Conhecer detalhes do serviço
         </ButtonContainer>
         <Subtitle>Pré-requisitos </Subtitle>
         {!prerequisitesService && <Message>Nenhum pré-requisitos</Message>}
