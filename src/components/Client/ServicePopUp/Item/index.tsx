@@ -31,10 +31,6 @@ const Item: React.FC<Props> = ({
     }
   }, [checked])
 
-  useEffect(() => {
-    console.log(image)
-  }, [image])
-
   function changeClick(e: MouseEvent<HTMLDivElement>, id: string): void {
     const target = e.target as HTMLDivElement
 

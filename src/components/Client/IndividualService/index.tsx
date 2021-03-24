@@ -68,11 +68,13 @@ const ServiceItem: React.FC<Props> = ({ service }) => {
         category.services.map((item) => {
           if (item._id === id) {
             filtredItem = item
+            filtredItem.check = true
           }
         })
       })
     } else {
       filtredItem = service
+      filtredItem.check = true
     }
 
     const newCart = cart.concat(filtredItem)
