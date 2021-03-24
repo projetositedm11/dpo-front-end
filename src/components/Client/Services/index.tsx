@@ -93,6 +93,10 @@ const Services: React.FC = () => {
             cart.map((item) => {
               if (item._id === service._id) {
                 service.check = true
+
+                if (item.check) {
+                  service = item
+                }
               } else {
                 service.check = false
               }
