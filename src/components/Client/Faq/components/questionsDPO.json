@@ -1,12 +1,12 @@
 [
   {
   "question": "Qual o papel do DPO?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Encarregado pelo tratamento de dados pessoais é uma pessoa nomeada pela empresa que coleta dados (controlador) e a que trata dados a mando do controlador (operador) que terá como uma de suas funções a mediação entre a empresa, os titulares dos dados pessoais (funcionários, fornecedores e clientes) e o próprio governo",
   "open": false
   },
   {
   "question": "O DPO pode ser alguém de fora da empresa?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Sim. Existe o conceito de DPO As a Service onde um terceiro é contratado como DPO do controlador ou o operador. É muito importante ressaltar que a responsabilidade civil neste caso, quando se fala em incidentes de segurança, pode ser repassada ao DPO terceirizado.",
   "open": false
   },
   {
@@ -16,7 +16,7 @@
   },
   {
   "question": "O DPO Precisa de alguma formação específica para atuar dentro da empresa?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Não existe uma obrigação por parte da LGPD quanto a certificações ou comprovações de conhecimento do DPO. Entretanto, como a LGPD é um tema que envolvem todas as áreas da uma organização, e possivelmente poderão envolver terceiros, é recomendado que o DPO tenha conhecimentos sólidos na área de Tecnologia e Segurança da Informação além de conhecimentos jurídicos para interpretar precisamente os diferentes cenários que possa encontrar no dia-a-dia da organização.",
   "open": false
   }
 ]

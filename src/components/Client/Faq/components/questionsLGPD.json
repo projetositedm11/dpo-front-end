@@ -1,131 +1,126 @@
 [{
   "question": "O que significa LGPD?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "LGPD é a sigla adotada para  a Lei Geral de Proteção de Dados (Lei nº13.709) sancionada em 14 de agosto de 2018 e que entrou em vigor em  de agosto de 2020. Seu principal objetivo é garantir transparência no uso dos dados das pessoas físicas em quaisquer meios. Esta lei chega para alterar a Lei nr 12.965, de 23 de abril de 2014, popularmente chamada de Marco Civil da Internet que regulava estas transações até então.",
   "open": false
 },
 {
   "question": "Do que trata a LGPD?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Do correto e transparente uso dos dados pessoais com fins comerciais, seja o uso feito por pessoa física ou jurídica de caráter público ou privado",
   "open": false
 },
 {
   "question": "O que é Privacidade?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "No âmbito da LGPD e dos dados pessoais, privacidade é o direito que o titular dos dados tem a ter o controle sobre as informações existentes sobre si mesma e exercer este controle de forma consistente com seus interesses e valores pessoais.",
   "open": false
 },
 {
   "question": "O que significa pessoa natural?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Podendo ser substituído pelo termo “Pessoa Física”, pessoa natural é o próprio ser humano dotado de capacidade. É o sujeito provido de direitos e obrigações a partir de seu nascimento com vida, de acordo com o artigo 2º do Código Civil. ",
   "open": false
 },
 {
   "question": "Em que situações não se aplica a LGPD?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Não se aplica quando o tratamento de dados se enquadra em algumas destas categorias:  Dados Pessoais tratados por Pessoas naturais para fins Não Econômicos, Dados Pessoais tratados para fins Jornalísticos ou Artísticos, Dados Pessoais tratados para fins Acadêmicos, Dados Pessoais tratados para fins de Segurança Pública, Defesa Nacional, Segurança do Estado e Atividades de Investigação e Repressão de Infrações Penais",
   "open": false
 },
 {
   "question": "Quem é o titular de dados pessoais?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Titular de dados pessoais é a pessoa física a quem se referem os dados pessoais que são objeto de tratamento.",
   "open": false
 },
 {
   "question": "Armazenando dados pessoais em nuvem, em outro país, a LGPD não se aplica?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "O fato de o dado pessoal estar armazenado fora do país não isenta à aplicação da Lei.Para determinar a aplicabilidade da LGPD, precisamos verificar se: Operações de tratamento realizadas no território nacional ; Quando existe oferta ou o fornecimento de bens ou serviços para indivíduos localizados no território nacional;Dados pessoais objeto do tratamento tenha sido coletados no território nacional; Desta forma, caso as situações mencionadas acima se apliquem, não importa onde estes dados são armazenados, a LGPD é aplicável, inclusive, existem regras para transferência internacional dos dados pessoais que devem ser observadas. Contate a Equipe DPOBackOffice caso tenha dúvidas neste tema.",
   "open": false
 },
 {
   "question": "A LGPD se aplica apenas aos dados pessoais de cidadãos brasileiros?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Não. A lei considera todos os dados pessoais coletados em território nacional, desta forma dados de estrangeiros, que sejam coletados no Brasil também são protegidos pela LGPD, por exemplo: Um turista de qualquer local do mundo que esteja no Brasil, deixa seus dados pessoais em inúmeros locais: hotel, lojas, etc.., desta forma estes dados, que foram coletados no território brasileiro, são protegidos pela LGPD ; Imagine um estrangeiro que decida se mudar para o Brasil, ele deixa seus dados pessoais em uma infinidade de situações: compra/aluguel de imóvel, fornece seus dados ao seu empregador, nas compras que faz, informa seus dados a entidades públicas para obtenção do seu visto, etc…, desta forma estes dados pessoais também são protegidos pela LGPD.",
   "open": false
 },
 {
   "question": "O que são agentes de tratamentos de dados pessoais?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Os Agentes de tratamento de dados (Controlador + Operador) são conhecidos como as entidades participantes do processo, que realizam o tratamento de dados pessoais, sendo que o Operador realiza o tratamento de dados pessoais em nome do Controlador.",
   "open": false
 },
 {
   "question": "Qual o papel do Operador?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "O operador deve seguir as diretrizes trazidas pelo controlador e tratar os dados de acordo com as políticas de privacidade referentes e ao ordenamento jurídico. Ele ainda responde pelos danos patrimoniais, morais, individuais ou coletivos, tal como violações à legislação (dever de reparação) – assim como o controlador.",
   "open": false
 },
 {
   "question": "Qual o papel do  Controlador?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "É a pessoa natural ou jurídica, de direito público ou privado, a quem compete as decisões referentes ao tratamento de dados pessoais. Ele é reponsável por responder aos incidentes de segurança, como vazamentos, invasões e quedas de sistema, mesmo que o culpado seja o operador (quando se possui um).",
   "open": false
 },
 {
   "question": "O que é dado pessoal?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Dados pessoais são informação relativa a uma pessoa viva, identificada ou identificável. Também constituem dados pessoais o conjunto de informações distintas que podem levar à identificação de uma determinada pessoa.",
   "open": false
 },
 {
   "question": "O que é Anonimização?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "É o processo de transformar o dado pessoal em dado anonimizado, ou seja, um tipo de dado que não consiga mais identificar a pessoa referida. Neste caso, um dado anonimizado não é aplicável à LGPD.",
   "open": false
 },
 {
   "question": "O que é dado pessoal sensível?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "A LGPD define como dado pessoal sensível uma informação relacionada a uma pessoa física, identificada ou identificável, que trate sobre sua origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político. Além disso, incluem-se também dados que sejam referentes à saúde ou à vida sexual e dado genético ou biométrico",
   "open": false
 },
 {
   "question": "O que é pseudoanonimização?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "É o processo de anonimização que, nesse caso específico, permite o processo de inversão, ou seja, que se possa reorganizar e agrupar os dados de modo a identificar indiretamente o indivíduo a quem pertencem.",
   "open": false
 },
 {
   "question": "O que são princípios de tratamento?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Os princípios garantem a homogeneidade e a eficácia da Lei Geral de Proteção de dados, a fácil comunicação de seu conteúdo tanto aos titulares quanto aos que realizam o tratamento de dados pessoais, além da compatibilidade com legislações de outros países que utilizem princípios semelhantes – o que é muito importante nos casos de transferência internacional de dados. ",
   "open": false
 },
 {
   "question": "O que é criptografia?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Criptografia é a prática de codificar e decodificar dados. Quando os dados são criptografados, é aplicado um algoritmo para codificá-los de modo que eles não tenham mais o formato original e, portanto, não possam ser lidos. Os dados só podem ser decodificados ao formato original com o uso de uma chave de decriptografia específica. As técnicas de codificação constituem uma parte importante da segurança dos dados, pois protegem informações confidenciais de ameaças que incluem exploração por malware e acesso não autorizado por terceiros.",
   "open": false
 },
 {
   "question": "O que é o princípio da adequação?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Está previsto no inciso II, do artigo 6.º da LGPD e prevê a “compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento”.Os dados devem ser tratados de acordo com a sua destinação. A coleta de dados deverá ser compatível com a atividade fim do tratamento",
   "open": false
 },
 {
   "question": "O que são agentes de tratamentos de dados pessoais?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Os Agentes de tratamento de dados (Controlador + Operador) são conhecidos como as entidades participantes do processo, que realizam o tratamento de dados pessoais, sendo que o Operador realiza o tratamento de dados pessoais em nome do Controlador.",
   "open": false
 },
 {
   "question": "O que é princípio do livre acesso?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Possibilitar que o titular dos dados consulte livremente, de forma facilitada e gratuita, a forma e a duração do tratamento dos dados, bem como sobre a integralidade deles.",
   "open": false
 },
 {
   "question": "O que é o princípio da finalidade?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Previsto no inciso I do art. 6.º da LGPD, emprega-se como a “realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades”, ou seja, o dado deverá, na coleta, ter a indicação clara e completa que a justifique.",
   "open": false
 },
 {
   "question": "O que é  o princípio da transparência?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Visa garantir aos titulares, informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento dos dados.",
   "open": false
 },
 {
   "question": "O que é o princípio da necessidade?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "A coleta de dados deve ocorrer de forma restritiva, cuidando para que o tratamento dos dados pessoais esteja restrito à finalidade pretendida.",
   "open": false
 },
 {
   "question": "O que é o princípio da qualidade dos dados?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
-  "open": false
-},
-{
-  "question": "O que é princípio do livre acesso?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Este princípio busca garantir aos titulares dos dados a exatidão, a clareza, a relevância e a atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento",
   "open": false
 },
 {
   "question": "O que é o princípio da Segurança?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Compreende medidas técnicas e administrativas para proteger os dados de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão.",
   "open": false
 },
 {
@@ -135,52 +130,47 @@
 },
 {
   "question": "O que é o princípio da Não discriminação?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "O tratamento dos dados não pode ser realizado para fins discriminatórios, ilícitos ou abusivos, ou seja, não se pode excluir de titulares de dados pessoais, no momento de seu tratamento, informações determinadas por características, sejam elas de origem racial ou étnica, opinião política, religião ou convicções, geolocalização, filiação sindical, estado genético ou de saúde ou orientação sexual",
   "open": false
 },
 {
   "question": "O que é Base Legal?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "As bases legais são hipóteses da LGPD que autorizam o tratamento de dados pessoais. A partir do momento em que a LGPD entrar em vigor, empresas que utilizarem dados pessoais sem uma base legal adequada, estarão tratando dados de forma ilegal.",
   "open": false
 },
 {
   "question": "O que é o princípio da responsabilização e prestação de contas?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Neste princípio espera-se que o  controlador ou o operador demonstrem todas as medidas eficazes e capazes de comprovar o cumprimento da lei e a eficácia das medidas aplicadas.",
   "open": false
 },
 {
   "question": "Posso compartilhar os dados pessoais com terceiros?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "O controlador que obteve o consentimento e que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei. ",
   "open": false
 },
 {
   "question": "Posso usar dados pessoais que tenham sido tornados públicos pelo titular?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização. É dispensada a exigência do consentimento para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei",
   "open": false
 },
 {
   "question": "O que é término do tratamento de dados?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Segundo a lei, o tratamento do dado pessoal não é infinito, ou determinado apenas pela vontade do controlador.  Ao coletar os dados, é preciso especificar o propósito do tratamento, e ao final do tratamento para o qual foi obtido o consentimento, os dados do titular devem ser eliminados. ",
   "open": false
 },
 {
   "question": "Quais as regras para transferência internacional de dados pessoais?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Os dados pessoais poderão ser transferidos apenas para países ou organismos internacionais que proporcionem grau de proteção de dados pessoais adequado ao previsto na LGPD (neste caso a Autoridade Nacional poderá avaliar se o país em questão fornece mecanismos de proteção aceitáveis, também poderão ser levados em consideração à natureza dos dados pessoais em questão e os mecanismos de proteção aplicados, além de outros critérios); ",
   "open": false
 },
 {
   "question": "O Governo Brasileiro tem um glossário oficial da Segurança da Informação?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
-  "open": false
-},
-{
-  "question": "O que é o princípio da responsabilização e prestação de contas?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Sim. lá você encontra as descrições de vários termos relacionadas à segurança da informação e a LGPD, o glossário pode ser acessado através deste <a href=” https://www.in.gov.br/en/web/dou/-/portaria-n-93-de-26-de-setembro-de-2019-219115663”> Link</a>",
   "open": false
 },
 {
   "question": "O controlador e o operador têm algum tipo de responsabilidade e/ou obrigação de ressarcimento de danos?",
-  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit.ratione? Soluta in aperiam perferendis corporis praesentium, mollitia animi",
+  "answer": "Segundo a LGPD o controlador ou o operador que, em razão do exercício de atividade de tratamento de dados pessoais, causar a outrem dano patrimonial, moral, individual ou coletivo, em violação à legislação de proteção de dados pessoais, é obrigado a repará-lo.",
   "open": false
 }
 ]
