@@ -17,6 +17,7 @@ export const Container = styled.div<ContainerProps>`
     h3 {
       font-size: 20px;
       font-weight: normal;
+      margin-left: 15px;
       margin-right: 10px;
       width: 300px;
       color: ${(props) => props.theme.blue};
@@ -32,7 +33,7 @@ export const Container = styled.div<ContainerProps>`
 `
 
 export const Content = styled.div`
-  max-height: 400px;
+  max-height: 600px;
   transition: all 0.2s ease;
   overflow: hidden;
 

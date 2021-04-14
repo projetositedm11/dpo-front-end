@@ -30,12 +30,12 @@
 },
 {
   "question": "Armazenando dados pessoais em nuvem, em outro país, a LGPD não se aplica?",
-  "answer": "O fato de o dado pessoal estar armazenado fora do país não isenta à aplicação da Lei.Para determinar a aplicabilidade da LGPD, precisamos verificar se: Operações de tratamento realizadas no território nacional ; Quando existe oferta ou o fornecimento de bens ou serviços para indivíduos localizados no território nacional;Dados pessoais objeto do tratamento tenha sido coletados no território nacional; Desta forma, caso as situações mencionadas acima se apliquem, não importa onde estes dados são armazenados, a LGPD é aplicável, inclusive, existem regras para transferência internacional dos dados pessoais que devem ser observadas. Contate a Equipe DPOBackOffice caso tenha dúvidas neste tema.",
+  "answer": "O fato de o dado pessoal estar armazenado fora do país não isenta à aplicação da Lei. Para determinar a aplicabilidade da LGPD, precisamos verificar se as operações de tratamento realizadas no território nacional, verificar quando existe oferta ou o fornecimento de bens ou serviços para indivíduos localizados no território nacional e dados pessoais objeto do tratamento tenha sido coletados no território nacional. Desta forma, caso as situações mencionadas acima se apliquem, não importa onde estes dados são armazenados, a LGPD é aplicável, inclusive, existem regras para transferência internacional dos dados pessoais que devem ser observadas. Contate a Equipe DPOBackOffice caso tenha dúvidas neste tema.",
   "open": false
 },
 {
   "question": "A LGPD se aplica apenas aos dados pessoais de cidadãos brasileiros?",
-  "answer": "Não. A lei considera todos os dados pessoais coletados em território nacional, desta forma dados de estrangeiros, que sejam coletados no Brasil também são protegidos pela LGPD, por exemplo: Um turista de qualquer local do mundo que esteja no Brasil, deixa seus dados pessoais em inúmeros locais: hotel, lojas, etc.., desta forma estes dados, que foram coletados no território brasileiro, são protegidos pela LGPD ; Imagine um estrangeiro que decida se mudar para o Brasil, ele deixa seus dados pessoais em uma infinidade de situações: compra/aluguel de imóvel, fornece seus dados ao seu empregador, nas compras que faz, informa seus dados a entidades públicas para obtenção do seu visto, etc…, desta forma estes dados pessoais também são protegidos pela LGPD.",
+  "answer": "Não. A lei considera todos os dados pessoais coletados em território nacional, desta forma dados de estrangeiros, que sejam coletados no Brasil também são protegidos pela LGPD. Por exemplo: Um turista de qualquer local do mundo que esteja no Brasil, deixa seus dados pessoais em inúmeros locais: hotel, lojas, etc.., desta forma estes dados, que foram coletados no território brasileiro, são protegidos pela LGPD. Imagine um estrangeiro que decida se mudar para o Brasil, ele deixa seus dados pessoais em uma infinidade de situações: compra/aluguel de imóvel, fornece seus dados ao seu empregador, nas compras que faz, informa seus dados a entidades públicas para obtenção do seu visto, etc…, desta forma estes dados pessoais também são protegidos pela LGPD.",
   "open": false
 },
 {
@@ -65,7 +65,7 @@
 },
 {
   "question": "O que é dado pessoal sensível?",
-  "answer": "A LGPD define como dado pessoal sensível uma informação relacionada a uma pessoa física, identificada ou identificável, que trate sobre sua origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político. Além disso, incluem-se também dados que sejam referentes à saúde ou à vida sexual e dado genético ou biométrico",
+  "answer": "São dados pessoais que revelem a origem racial ou étnica, opiniões políticas e convicções religiosas ou filosóficas. Se enquadram aqui filiação sindical, dados genéticos, dados biométricos tratados simplesmente para identificar um ser humano, dados relacionados com a saúde e dados relativos à vida sexual ou orientação sexual da pessoa.",
   "open": false
 },
 {

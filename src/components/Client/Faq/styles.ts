@@ -8,7 +8,7 @@ export const Header = styled.div`
   padding: 30px 0;
 
   section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
 
@@ -36,7 +36,7 @@ export const Header = styled.div`
 `
 
 export const Content = styled.div`
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 30px;

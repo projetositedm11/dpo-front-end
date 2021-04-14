@@ -40,7 +40,7 @@ const Faq: React.FC = () => {
       <Container>
         <Header>
           <section>
-            <p>Faq</p>
+            <p>FAQ DPO|BackOffice</p>
           </section>
         </Header>
         <Content>
