@@ -16,7 +16,7 @@ export const Container = styled.div<ContainerProps>`
     box-shadow: 2px 2px 4px 2px ${(props) => (!props.open ? 'rgba(0, 0, 0, 0.1)' : 'transparent')};
     h3 {
       font-size: 20px;
-      font-weight: normal;
+      font-weight: bold;
       margin-left: 15px;
       margin-right: 10px;
       width: 300px;

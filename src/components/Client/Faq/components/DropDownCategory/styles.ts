@@ -15,9 +15,9 @@ export const Container = styled.div<ContainerProps>`
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
     h3 {
       font-size: 25px;
-      font-weight: bold;
+      font-weight: normal;
       margin-right: 20px;
-      color: ${(props) => props.theme.blue};
+      color: ${(props) => props.theme.lightDark};
       line-height: 40px;
     }
     svg {
